@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Ranking Individual de Jugadores")
 
 # Leer archivo Excel
-df = pd.read_excel("C:/Users/fcovi/Downloads/resultados_partidos.xlsx")
+df = pd.read_excel("resultados_partidos.xlsx")
 
 # Crear columnas con nombres de las parejas
 df['Pareja_1'] = df['Pareja 1 Jugador A'] + " / " + df['Pareja 1 Jugador B']
